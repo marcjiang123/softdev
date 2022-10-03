@@ -52,7 +52,7 @@ def choose():
     return output
 
 print("DICTIONARY ----------------------------------------")
-print(mk_dict())
+print(mkDict())
 
 for i in range(15):
     print(choose())
