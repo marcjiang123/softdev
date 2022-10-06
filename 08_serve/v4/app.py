@@ -9,8 +9,11 @@ app = Flask(__name__) #create instance of class Flask
 def hello_world():
     print("the __name__ of this module is... ")
     print(__name__)
-    return "No hablo queso!"
+    return "No hda aablo queso!"
 
 if __name__ == "__main__":  # true if this file NOT imported
     app.debug = True        # enable auto-reload upon code change
     app.run()
+
+# does the same as v3
+# we are unsure what the added if statement does

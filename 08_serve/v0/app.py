@@ -1,4 +1,4 @@
-# Clyde 'Thluffy' Sinclair
+# TNPG: PPP
 # SoftDev
 # Oct 2022
 
@@ -12,3 +12,5 @@ def hello_world():
 
 app.run()  # ...
                 
+# displays "no hablo queso!" on browser.
+# prints __main__ to terminal

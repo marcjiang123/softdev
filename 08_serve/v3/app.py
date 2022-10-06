@@ -1,4 +1,4 @@
-# Clyde 'Thluffy' Sinclair
+# PPP
 # SoftDev
 # Oct 2022
 
@@ -13,3 +13,6 @@ def hello_world():
 
 app.debug = True
 app.run()
+
+# displays "no hablo queso!" to browser and prints the two print statements.
+# also gave us a debug pin in the terminal since debug mode is on
