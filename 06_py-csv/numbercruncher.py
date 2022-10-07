@@ -1,21 +1,27 @@
-# TNPG: PPP
-# SoftDev
-# October 2022
+'''
+wille -- Lauren Lee & Marc Jiang
+SoftDev
+k06: StI/O: Divine your Destiny!
+2022-10-1
+time spent: 0.5 hr
 
-from flask import Flask
-app = Flask(__name__)
+DISCO:
+- random.choices() can automatically choose based on a desired probability as opposed to 
+- we don't need to order the values of the dictionary for our algorithm to work 
+- rsplit() splits from right
+- rng.uniform() generates random float between an interval 
 
-@app.route("/")
+QCC
+- whats the best way to test?
 
-def hello_world():
-    return "TNPG: PPP (Marc Jiang, Thomas Zhang, Kevin Liu) <br> SoftDev <br> October 2022 <br><br>" + choose() + "<br><br>" + printList()
-
-def hellow_world2():
-    return occupation
-
+HOW THIS SCRIPT WORKS
+-This script works by randomly generating a value from 0 to the total odds of each job. 
+We then subtract the chances of each job starting from the top of the csv to the bottom from the randomly generated value until it reaches 0 or below. 
+-The job that corresponds to the value that made the randomly generated value 0 or below is the job that is selected 
+'''
 import random as rng
 
-occupation = open("occupations.csv").read() #reading the csv file into a string
+occupation = open("test.csv").read() #reading the csv file into a string
 
 occupation = occupation.split("\n") #split each new line 
 occupation.pop(0) #delete the heading
@@ -52,12 +58,4 @@ def choose():
             return key
     return ret_val
 
-keyList = jobs.keys()
-
-def printList():
-    s = ""
-    for i in keyList:
-        s = s + i + "<br>"
-    return s
-
-def makeLinks():
+print(choose())
