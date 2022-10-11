@@ -37,6 +37,7 @@ def choose():
     sort_jobs = {}
     sort_jobs = jobs
 
+
     #identify the total of all the values         
     sum = total.split(",")
     sum = float(sum[1])
@@ -60,4 +61,6 @@ def printList():
         s = s + i + "<br>"
     return s
 
-def makeLinks():
+if __name__ == "__main__":  # true if this file NOT imported
+    app.debug = True        # enable auto-reload upon code change
+    app.run()
