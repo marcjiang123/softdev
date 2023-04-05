@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Python NumPy SciPy</title>
+</head>
+
+<body>
+    <h1>Python NumPy SciPy</h1>
+    <h2>Marc Jiang, Thomas Zhang<br>Period 7</h2>
+
+    <h3>NumPy</h3>
+    <h4>How to Install</h4>
+    <div>
+        You can install NumPy using pip or conda. For pip, you can install NumPy by running the following command in your terminal:
+        <code>
+            pip install numpy
+        </code>
+        For conda you can install NumPy by running the following command in your terminal:
+        <code>
+            conda install numpy
+        </code>
+    </div>
+    <h4>About NumPy</h4>
+    <div>
+        NumPy is a Python library used for mathematical computations. One of the main funtionalities and defining features of the library is the array. Arrays are similar to lists, but are much more optimized for speed and efficiency. They also allow for operations to be performed on the entire array at once and come with a multitude of built-in functions.
+    </div>
+    <h4>How do NumPy Arrays Work?</h4>
+    <div>
+        The NumPy library is coded in C and Fortran, two compiled languages that are highly optimized for speed and math. An important difference between Python lists and NumPy arrays are that NumPy arrays are stored contiguously in memory and are homogenous, while Python lists are not.
+        <a href="array.png">NumPy Array in Memory</a>
+        <a href="list.png">Python List in Memory</a>
+        To the left is a diagram showing a NumPy array in memory. Each element is adjacent to each other, which makes accessing each element extremely fast. To the right is a diagram showing a Python list in memory. Each element holds a pointer to the actual value, rather than the value itself. Although this does allow lists to hold elements of different types (hence heterogenous), it takes much more time to access each element since they are spread out in memory.
+    </div>
+    <h3>SciPy</h3>
+    <h4>How to Install</h4>
+    <p>
+        You can install SciPy using pip or conda. For pip, you can install NumPy by running the following command in your terminal:
+        <code>
+            pip install scipy
+        </code>
+        For conda you can install SciPy by running the following command in your terminal:
+        <code>
+            conda install scipy
+        </code>
+    </p>
+    <h4>About SciPy</h4>
+    <div>
+        SciPy is a libaray that extends NumPy and its provided arrays and other key functionalities. It is used for more complex scientific computations and for visualizing data. The library consists of the following subpackages: /n
+        Integration, Optimization, Interpolation, Fourier Transformations, Signal Processing, Linear Algebra, Compressed Sparse Graph Routines, Spatial data structures and algorithms, Statistics, Multidimensional image processing
+    </div>
+    <h4>Constants Subpackage</h4>
+    <div>
+    The constants subpackage contains math and physics constants such as pi, the speed of light, and the mass of a proton:
+    <code>print(constants.speed_of_light)</code>
+    The library also allows you to convert units from the imperial system to SI units:
+    For example, if you would like to convert 5 pounds to kilograms, you can type the following:
+    <code>print(5*constants.lb)</code>
+    </div>
+    <h4>Integration Subpackage</h4>
+    <div>
+        
+    </div>
+    <h4>Linear Algebra Subpackage</h4>
+    <div>
+    The quad function is used to compute definite integrals. 
+    </div>
+</body>
+</html>
