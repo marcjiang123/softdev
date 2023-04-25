@@ -1,0 +1,15 @@
+The Mighty Morphin Flower Arrangers: Marc Jiang, Faiza Huda
+SoftDev pd7
+K30 -- JS Paint
+2023-04-24
+
+DISCO
+------------------
+* offsetX and offsetY for mouse positions
+* <element>.innerHTML to change html
+* use getContext to get context of canvas and interact with interact
+
+QCC
+-----------------
+* e is a MouseEvent? how does this work?
+* 
