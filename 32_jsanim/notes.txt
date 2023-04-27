@@ -1,0 +1,30 @@
+Team Might Morphin Flower Arrangers :: Marc Jiang, Faiza Huda
+
+SoftDev pd7
+
+K32 -- Canvas in javascript
+
+2023-04-26
+
+DISCO
+
+-----------------------------------------------------------------
+
+* multiplying velocity by -1 makes it look like its reflecting off the wall
+
+* Math.random() only returns a float from 0 to 1. you'd have to multiply by a bigger constant to get a useful number
+
+=================================================================
+
+QCC
+
+-----------------------------------------------------------------
+
+* what does preventDefault() mean? why doesnt it work? how do you make it work?
+
+* do we need to make it change colors when it hits the corner?
+
+* what does cancelAnimationFrame() do in the beginning of the draw functions?
+
+=================================================================
+
